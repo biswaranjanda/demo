@@ -3,7 +3,8 @@ pipeline {
     stages {      
         stage('hello') {
             steps {
-               sh 'cat test.txt'
+                echo 'Building******'
+               sh './hello.sh'
             }
         }
     }
